@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/casino/static/css/main.df54d889.css",
+    "main.js": "/casino/static/js/main.12b949bf.js",
+    "static/media/card-background.jpg": "/casino/static/media/card-background.c1d4947f5f1dd610e2ea.jpg",
+    "index.html": "/casino/index.html",
+    "main.df54d889.css.map": "/casino/static/css/main.df54d889.css.map",
+    "main.12b949bf.js.map": "/casino/static/js/main.12b949bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df54d889.css",
+    "static/js/main.12b949bf.js"
+  ]
+}
