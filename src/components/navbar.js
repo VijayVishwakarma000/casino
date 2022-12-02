@@ -11,7 +11,7 @@ import {NavLink} from 'react-router-dom'
               <li><NavLink className="link" to="/">live casino</NavLink></li>
               <NavLink className="link" to="/"><img  alt='spades' src="https://img.icons8.com/ios-filled/50/null/ace-of-spades.png" className="icon" /></NavLink>
               <li><NavLink className="link" to="/games">Games</NavLink></li>
-              <NavLink className="link" to="/"> <img  alt='dice' src="https://img.icons8.com/metro/26/null/dice.png" className="icon" /></NavLink>
+              <NavLink className="link" to="/games"> <img  alt='dice' src="https://img.icons8.com/metro/26/null/dice.png" className="icon" /></NavLink>
               <li><NavLink className="link" to="/">Casinos</NavLink></li>
               <NavLink className="link" to="/"> <img alt='coin' src="https://img.icons8.com/external-icongeek26-glyph-icongeek26/64/null/external-casino-chip-casino-icongeek26-glyph-icongeek26-3.png" className="icon" /></NavLink>
               <li><NavLink className="link" to="/">help</NavLink></li>
