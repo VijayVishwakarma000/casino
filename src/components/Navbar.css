@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#navbar {
+    background-color: rgb(24, 25, 26);
+   /* align-items: center;
+   display: flex;
+   justify-content: space-around; */
+   z-index: 22222;
+}
+
+.icon{
+    display: none;
+    visibility: hidden;
+}
+.logo{
+
+    color: #fff;
+    /* text-align: left; */
+
+}
+
+.h-child{
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    justify-content: right;
+    margin-right: 2vw;
+}
+.registration .resReg{
+    display: flex;
+    align-items: center;
+}
+.registration li .link {
+    border: 1px solid rgb(247, 210, 3);
+    margin-right: 10px;
+    padding: 7.5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.registration li  #bg-color{
+   background-color: #ffd000;
+   color: black;
+}
+.registration li .link:hover{
+    color:#000000;
+    background-color: #ffd000;
+    box-shadow: 0px 0px 10px #ffd000,0px 0px 20px #ffd000,0px 0px 30px #ffd000;
+}
+#navbar li{
+    list-style: none;
+}
+.h-child .link{
+    color:#FFD700;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Maven Pro', sans-serif;
+    transition:0.3s  ease-in-out ;
+
+}
+.h-child .link:hover{
+    text-shadow: 0px 0px 10px #ffd000,0px 0px 20px #ffd000,0px 0px 40px #ffd000;
+}
+
+/* home section */
+
+.home{
+    background-color: #3d3d3d;
+    height: 100vh;
+}
+
+/* responsive navbar */
+
+@media only screen and (max-width:720px) {
+
+        html{
+            font-size: 75%;
+        }    
+    
+   
+}
+@media only screen and (max-width:600px){
+    .logo{
+        display: none;
+        visibility: hidden;
+    }
+    .h-child{
+        justify-content: space-between;
+        margin-left: 5vw;
+    }
+    #navbar{
+        background-color: rgb(24 25 26);
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+    }
+    .icon{
+        display: block;
+        visibility: visible;
+        filter:invert(100%);
+        
+        
+        width: 30px;
+        cursor: pointer;
+    }
+    
+ .h-child li .link{
+    display: none;
+    visibility: hidden;
+ }
+ .registration .resReg li .link{
+    display: block;
+    visibility: visible;
+ }
+}
+
+@media only screen and (max-width:450px){
+/* 
+    html{
+        font-size: 60%;
+    } */
+
+    .icon{
+        width: 24px;
+    }
+
+
+}
+
+@media only screen and (max-width:380px){
+    /* 
+        html{
+            font-size: 60%;
+        } */
+    
+        .icon{
+            width: 20px;
+        }
+    
+    
+    }
